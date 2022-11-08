@@ -1,0 +1,105 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.clear-both{
+    clear: both;
+}
+.header{
+    margin-top: 30px ;
+    margin-right: 30px;
+    margin-left: 50px;
+line-height: 50px;
+}
+.header .logo{
+    float: left;   
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+    
+}
+.header .navbar{
+    float: right;
+
+}
+.header .navbar ul li{
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+    text-transform: capitalize;  
+}
+.header .navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+.main .title {
+    float: left;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.main .title h5{
+    color: rgba(42, 10, 223, 0.71);
+    font-size: x-large;
+
+}
+.main .title h1{
+    text-transform: capitalize;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+}
+.main .title button{
+    background-color: white;
+    border: 0px;
+    margin-top: 50px;
+}
+.main .title button:hover{
+    background-color: rgb(112, 112, 195);
+}
+.main .title button a{
+    text-decoration: none;
+    color: black;
+    
+}
+.main .image img{
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left:400px ;
+}
+.footer{
+    background-color: aqua;
+    margin-top: 50px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+.footer .parent .step .step1{
+    float: left;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-left: 80px;
+    float: left;
+    background-color: antiquewhite;
+}
+.footer .parent .step .step2{
+margin-left: 360px;
+padding-bottom: 40px;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 50px;}
+
+
+.footer .parent .step .step3 {
+    margin-left: 600px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 50px;}
+
+.parent .flesh .material-symbols-outlined{
+    margin-left: 840px;
+    background-color: rgb(241, 247, 247);
+    border-radius: 20px;
+}
+
